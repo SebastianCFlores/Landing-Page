@@ -10,6 +10,7 @@ body {
     justify-content: center;
     background-color: #1f2937;
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -17,6 +18,41 @@ body {
     color: #E5E7EB;
     font-size: 24px;
 }
+
+.right-links {
+    font-size: 18px;
+    display: flex;
+}
+
+.sub-box {
+    display:flex
+}
+
+.left-card-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.four-boxes {
+    display: flex;
+    
+
+}
+.mini-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 ul {
     list-style-type: none;
@@ -30,14 +66,13 @@ a{
     font-size: 18px;
 }
 
-.right-links {
-    font-size: 18px;
-    display: flex;
-}
-.left-card-title {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+
+
+
+.second-img {
+    width: 100px;
+    height: 100px;
+
 }
 
 button {
