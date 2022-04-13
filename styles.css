@@ -48,7 +48,6 @@ a{
 
 .sub-box {
     display:flex;
-    justify-content: space-around;
     margin-bottom: 80px;
     justify-content: center;
 }
@@ -67,8 +66,9 @@ a{
     font-weight: bolder;
     color: #f9faf8;
     margin-top: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
+
 .text-under-card-title {
     font-size: 18px;
     color: #E5E7EB;
@@ -76,7 +76,8 @@ a{
     margin-bottom: 10px;
     font-weight: lighter;    
 }
-button {
+
+.top-button {
     background-color: #3882F6;
     color: white;
     border: none;
@@ -142,7 +143,39 @@ button {
     color: #1f2937;
     font-weight: lighter;
 }
+
 .sign {
   font-size: 30px;
   font-weight: bold;
+}
+
+.container-four {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding-left: 20px;
+    margin:100px 500px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.modal-title {
+    margin-bottom: 4px;
+}
+
+.modal-subtext {
+    margin-top: 4px;
+}
+
+.bottom-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: 700;
 }
