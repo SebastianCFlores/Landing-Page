@@ -12,18 +12,18 @@ ul {
     gap: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
 }
 
 .container-one {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #1f2937;
-    
+
 }
 
 .header {
@@ -47,7 +47,7 @@ a{
 }
 
 .sub-box {
-    display:flex;
+    display: flex;
     margin-bottom: 80px;
     justify-content: center;
 }
@@ -74,7 +74,7 @@ a{
     color: #E5E7EB;
     margin-top: 4px;
     margin-bottom: 10px;
-    font-weight: lighter;    
+    font-weight: lighter;
 }
 
 .top-button {
@@ -110,14 +110,14 @@ a{
 .four-boxes {
     display: flex;
     align-items: center;
-    
+
 }
 
 .mini-imgs {
     width: 200px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     margin-right: 60px;
     text-align: center;
 }
@@ -130,44 +130,54 @@ a{
 }
 
 .container-three {
-    display: flex ;
+    display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 160px 600px;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+.prueba {
+    padding: 10% 20% 10% 20%;
+
+
 }
 
 .quote {
+
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
     font-weight: lighter;
+    min-width: 500px;
+
 }
 
 .sign {
-  font-size: 30px;
-  font-weight: bold;
+    display:flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .container-four {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     background-color: #3882F6;
-    margin-right:500px;
-    margin-left:500px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 50%;
+    margin: 100px auto;
     border-radius: 10px;
     padding: 20px;
     color: white;
 }
+
 .bottom-sub-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    
+
 }
 
 .modal-title {
@@ -195,5 +205,5 @@ a{
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    color:#f9faf8
+    color: #f9faf8;
 }
